@@ -193,7 +193,6 @@ See more info [here](https://source.android.com/source/code-style.html#fully-qua
 
 Fields should be defined at the __top of the file__ and they should follow the naming rules listed below.
 
-<<<<<<< HEAD
 __Never use the prefix m or s for field names.__
 =======
 * Private, non-static field names start with __m__.
