@@ -78,7 +78,6 @@ Naming conventions for drawables:
 | Menu         | `menu_	`           | `menu_submenu_bg.9.png`     |
 | Notification | `notification_`	| `notification_bg.9.png`     |
 | Tabs         | `tab_`            | `tab_pressed.9.png`         |
->>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 
 Naming conventions for icons (taken from [Android iconography guidelines](http://developer.android.com/design/style/iconography.html)):
 
@@ -107,7 +106,6 @@ Naming conventions for selector states:
 | Focused      | `_focused`      | `btn_order_focused.9.png`   |
 | Disabled     | `_disabled`     | `btn_order_disabled.9.png`  |
 | Selected     | `_selected`     | `btn_order_selected.9.png`  |
->>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 
 
 #### 1.2.2.2 Layout files
@@ -124,7 +122,6 @@ Layout files should match the name of the Android components that they are inten
 <<<<<<< HEAD
 | ViewPager        |                        | `viewpager_...`               |
 =======
->>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 
 A slightly different case is when we are creating a layout that is going to be inflated by an `Adapter`, e.g to populate a `ListView`. In this case, the name of the layout should start with `item_`.
 
@@ -216,7 +213,6 @@ public class MyClass {
     protected int mProtected;
 }
 ```
->>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 
 ### 2.2.3 Treat acronyms as words
 
