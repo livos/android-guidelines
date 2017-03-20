@@ -1,11 +1,7 @@
 # Android Guidelines
 
-<<<<<<< HEAD
-Modified version of the excellent work available here https://github.com/ribot/android-guidelines. 
+Fork of the excellent work available here https://github.com/ribot/android-guidelines. 
 I just added some stuffs and made some modifications regarding my personnal needs.
-=======
-List of guidelines that we use at [ribot](http://ribot.co.uk) when developing for the __Android__ platform. 
->>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 
 * [Project and code style guidelines](project_and_code_guidelines.md)
 * [Architecture Guidelines](architecture_guidelines/android_architecture.md)

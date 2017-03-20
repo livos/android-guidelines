@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Modified version of the excellent work available here https://github.com/ribot/android-guidelines. I just added some stuffs and made some modifications regarding my personnal needs.
 
 Some informations for project structure come from http://blog.smartlogic.io/2013-07-09-organizing-your-android-development-code-structure/
@@ -6,12 +5,10 @@ Some informations for project structure come from http://blog.smartlogic.io/2013
 This document is always in progress...
 
 =======
->>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 # 1. Project guidelines
 
 ## 1.1 Project structure
 
-<<<<<<< HEAD
 New projects should follow the Android Gradle project structure that is defined on the [Android Gradle plugin user guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure). 
 
 Everything is organized in separate packages :
@@ -32,7 +29,6 @@ Everything is organized in separate packages :
 =======
 New projects should follow the Android Gradle project structure that is defined on the [Android Gradle plugin user guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure). The [ribot Boilerplate](https://github.com/ribot/android-boilerplate) project is a good reference to start from.
 
->>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 ## 1.2 File naming
 
 ### 1.2.1 Class files
