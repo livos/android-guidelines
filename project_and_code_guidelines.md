@@ -1,13 +1,17 @@
+<<<<<<< HEAD
 Modified version of the excellent work available here https://github.com/ribot/android-guidelines. I just added some stuffs and made some modifications regarding my personnal needs.
 
 Some informations for project structure come from http://blog.smartlogic.io/2013-07-09-organizing-your-android-development-code-structure/
 
 This document is always in progress...
 
+=======
+>>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 # 1. Project guidelines
 
 ## 1.1 Project structure
 
+<<<<<<< HEAD
 New projects should follow the Android Gradle project structure that is defined on the [Android Gradle plugin user guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure). 
 
 Everything is organized in separate packages :
@@ -25,6 +29,10 @@ Everything is organized in separate packages :
  * preferences : Contains all classes for custom preferences. When creating the preferences I required a custom PreferenceDialog as well as a custom PreferenceCategory. They live here.
  * sync : Contains all classes related to syncing. I use a SyncAdapter to pull data from an HTTP API. In addition to the SyncAdapter a SyncService is required, so I created a package.
  
+=======
+New projects should follow the Android Gradle project structure that is defined on the [Android Gradle plugin user guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure). The [ribot Boilerplate](https://github.com/ribot/android-boilerplate) project is a good reference to start from.
+
+>>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 ## 1.2 File naming
 
 ### 1.2.1 Class files
@@ -43,6 +51,7 @@ Naming conventions for drawables:
 
 | Asset Type   | Prefix            |		Example               |
 |--------------| ------------------|-----------------------------|
+<<<<<<< HEAD
 | Action bar   | `ab_`             | `ab_stacked`          |
 | Button       | `btn_`	            | `btn_send`    |
 | Checkbox     | `chk_`| `chk_night`|
@@ -64,6 +73,16 @@ Naming conventions for drawables:
 | TextView     | `tv_`             | `tv_phone_number`|
 | ToggleButton | `tb_` | `tb_view`|
 | ViewPager | `vp_` | `vp_slider` |
+=======
+| Action bar   | `ab_`             | `ab_stacked.9.png`          |
+| Button       | `btn_`	            | `btn_send_pressed.9.png`    |
+| Dialog       | `dialog_`         | `dialog_top.9.png`          |
+| Divider      | `divider_`        | `divider_horizontal.9.png`  |
+| Icon         | `ic_`	            | `ic_star.png`               |
+| Menu         | `menu_	`           | `menu_submenu_bg.9.png`     |
+| Notification | `notification_`	| `notification_bg.9.png`     |
+| Tabs         | `tab_`            | `tab_pressed.9.png`         |
+>>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 
 Naming conventions for icons (taken from [Android iconography guidelines](http://developer.android.com/design/style/iconography.html)):
 
@@ -80,11 +99,19 @@ Naming conventions for selector states:
 
 | State	       | Suffix          | Example                     |
 |--------------|-----------------|-----------------------------|
+<<<<<<< HEAD
 | Normal       | `_normal`       | `btn_order_normal`    |
 | Pressed      | `_pressed`      | `btn_order_pressed`   |
 | Focused      | `_focused`      | `btn_order_focused`   |
 | Disabled     | `_disabled`     | `btn_order_disabled`  |
 | Selected     | `_selected`     | `btn_order_selected`  |
+=======
+| Normal       | `_normal`       | `btn_order_normal.9.png`    |
+| Pressed      | `_pressed`      | `btn_order_pressed.9.png`   |
+| Focused      | `_focused`      | `btn_order_focused.9.png`   |
+| Disabled     | `_disabled`     | `btn_order_disabled.9.png`  |
+| Selected     | `_selected`     | `btn_order_selected.9.png`  |
+>>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 
 
 #### 1.2.2.2 Layout files
@@ -98,7 +125,10 @@ Layout files should match the name of the Android components that they are inten
 | Dialog           | `ChangePasswordDialog` | `dialog_change_password.xml`  |
 | AdapterView item | ---                    | `item_person.xml`             |
 | Partial layout   | ---                    | `partial_stats_bar.xml`       |
+<<<<<<< HEAD
 | ViewPager        |                        | `viewpager_...`               |
+=======
+>>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 
 A slightly different case is when we are creating a layout that is going to be inflated by an `Adapter`, e.g to populate a `ListView`. In this case, the name of the layout should start with `item_`.
 
@@ -170,7 +200,27 @@ See more info [here](https://source.android.com/source/code-style.html#fully-qua
 
 Fields should be defined at the __top of the file__ and they should follow the naming rules listed below.
 
+<<<<<<< HEAD
 __Never use the prefix m or s for field names.__
+=======
+* Private, non-static field names start with __m__.
+* Private, static field names start with __s__.
+* Other fields start with a lower case letter.
+* Static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
+
+Example:
+
+```java
+public class MyClass {
+    public static final int SOME_CONSTANT = 42;
+    public int publicField;
+    private static MyClass sSingleton;
+    int mPackagePrivate;
+    private int mPrivate;
+    protected int mProtected;
+}
+```
+>>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 
 ### 2.2.3 Treat acronyms as words
 
@@ -662,6 +712,10 @@ onView(withId(R.id.view))
 # License
 
 ```
+<<<<<<< HEAD
+=======
+Copyright 2015 Ribot Ltd.
+>>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

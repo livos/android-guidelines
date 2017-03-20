@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 Modified version of the excellent work available here https://github.com/ribot/android-guidelines. I just added some stuffs and made some modifications regarding my personnal needs.
 
+=======
+>>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 # Architecture Guidelines
 
 The architecture of our Android apps is based on the [MVP](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) (Model View Presenter) pattern.
@@ -30,6 +33,11 @@ Looking at the diagram from right to left:
 # License
 
 ```
+<<<<<<< HEAD
+=======
+Copyright 2015 Ribot Ltd.
+
+>>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -41,4 +49,8 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 236e3734499eae5fd9c944662bb2b7650ed2fe34
