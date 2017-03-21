@@ -62,7 +62,7 @@ Naming conventions for drawables:
 | Notification | `notification_`	| `notification_bg`     |
 | RadioButton | `rb_` | `rb_language`|
 | RelativeLayout| `rl_` | `rl_flowers`|
-| RecyclerView| 'rv_' | 'rv_movies' |
+| RecyclerView| `rv_` | `rv_movies` |
 | Spinner | `spn_` | `spn_age`|
 | Tabs         | `tab_`            | `tab_pressed`         |
 | TextView     | `tv_`             | `tv_phone_number`|
