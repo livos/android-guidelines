@@ -62,20 +62,12 @@ Naming conventions for drawables:
 | Notification | `notification_`	| `notification_bg`     |
 | RadioButton | `rb_` | `rb_language`|
 | RelativeLayout| `rl_` | `rl_flowers`|
+| RecyclerView| 'rv_' | 'rv_movies' |
 | Spinner | `spn_` | `spn_age`|
 | Tabs         | `tab_`            | `tab_pressed`         |
 | TextView     | `tv_`             | `tv_phone_number`|
 | ToggleButton | `tb_` | `tb_view`|
 | ViewPager | `vp_` | `vp_slider` |
-=======
-| Action bar   | `ab_`             | `ab_stacked.9.png`          |
-| Button       | `btn_`	            | `btn_send_pressed.9.png`    |
-| Dialog       | `dialog_`         | `dialog_top.9.png`          |
-| Divider      | `divider_`        | `divider_horizontal.9.png`  |
-| Icon         | `ic_`	            | `ic_star.png`               |
-| Menu         | `menu_	`           | `menu_submenu_bg.9.png`     |
-| Notification | `notification_`	| `notification_bg.9.png`     |
-| Tabs         | `tab_`            | `tab_pressed.9.png`         |
 
 Naming conventions for icons (taken from [Android iconography guidelines](http://developer.android.com/design/style/iconography.html)):
 
