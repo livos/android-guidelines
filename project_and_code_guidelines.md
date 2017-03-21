@@ -1,10 +1,9 @@
+Document in perpetual progress...
+
 Modified version of the excellent work available here https://github.com/ribot/android-guidelines. I just added some stuffs and made some modifications regarding my personnal needs.
 
 Some informations for project structure come from http://blog.smartlogic.io/2013-07-09-organizing-your-android-development-code-structure/
 
-This document is always in progress...
-
-=======
 # 1. Project guidelines
 
 ## 1.1 Project structure
@@ -47,7 +46,6 @@ Naming conventions for drawables:
 
 | Asset Type   | Prefix            |		Example               |
 |--------------| ------------------|-----------------------------|
-<<<<<<< HEAD
 | Action bar   | `ab_`             | `ab_stacked`          |
 | Button       | `btn_`	            | `btn_send`    |
 | Checkbox     | `chk_`| `chk_night`|
@@ -94,7 +92,6 @@ Naming conventions for selector states:
 
 | State	       | Suffix          | Example                     |
 |--------------|-----------------|-----------------------------|
-<<<<<<< HEAD
 | Normal       | `_normal`       | `btn_order_normal`    |
 | Pressed      | `_pressed`      | `btn_order_pressed`   |
 | Focused      | `_focused`      | `btn_order_focused`   |
@@ -119,7 +116,6 @@ Layout files should match the name of the Android components that they are inten
 | Dialog           | `ChangePasswordDialog` | `dialog_change_password.xml`  |
 | AdapterView item | ---                    | `item_person.xml`             |
 | Partial layout   | ---                    | `partial_stats_bar.xml`       |
-<<<<<<< HEAD
 | ViewPager        |                        | `viewpager_...`               |
 =======
 
