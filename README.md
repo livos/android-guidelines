@@ -1,3 +1,5 @@
+Project in perpetual progress...
+
 # Android Guidelines
 
 Fork of the excellent work available here https://github.com/ribot/android-guidelines. 
